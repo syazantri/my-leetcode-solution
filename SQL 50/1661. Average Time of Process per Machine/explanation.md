@@ -1,3 +1,9 @@
+**1661. Average Time of Process per Machine**
+<br>
+Difficulty: $\color{green}{\textsf{easy}}$
+
+🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸
+<br>
 I start by thinking I should make 2 copy of activity table, it is separated by its ```activity_type```, which is between 'end' or 'start'. 
 
 And then joining both of the tables with a condition, they should have same ```machine_id``` so that I can calculate the ```timestamp``` difference and then calculate the average of it.
